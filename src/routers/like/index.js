@@ -1,6 +1,6 @@
 export default {
     path:'/like',
-    redirect:'/like/allCity',
+    //redirect:'/like/allCity',
     component:() => import('@/views/like'),
     // children:[
     //     {

@@ -1,23 +1,23 @@
 <template>
   <div id="cityPage">
-    <Header title="喵眼城市"/>
+    <Header title="喵眼收藏"/>
     <div class="content">
-      <div class="nav">
+      <!-- <div class="nav">
         <ul>
           <router-link tag="li" to="/like/allCity">
             全城
             <span class="iconfont">&#xe65a;</span>
           </router-link>
-          <!-- <router-link tag="li" to="/like/grand">
+          <router-link tag="li" to="/like/grand">
             品牌
             <span class="iconfont">&#xe65a;</span>
           </router-link>
           <router-link tag="li" to="/like/feature">
             特色
             <span class="iconfont">&#xe65a;</span>
-          </router-link> -->
+          </router-link>
         </ul>
-      </div>
+      </div> -->
       <keep-alive>
         <router-view></router-view>
       </keep-alive>
