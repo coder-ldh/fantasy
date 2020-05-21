@@ -1,11 +1,11 @@
 <template>
   <div id="footerPage">
     <ul class="menu-list">
-      <router-link tag="li" to="/movie">
+      <router-link tag="li" to="/book">
         <img src="@/assets/book.png" alt>
         <p>喵眼小说</p>
       </router-link>
-      <router-link tag="li" to="/city">
+      <router-link tag="li" to="/like">
           <img src="@/assets/like.png" alt>
           <p>收藏</p>
       </router-link>

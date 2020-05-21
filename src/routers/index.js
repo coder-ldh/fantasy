@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // 为了方便管理，路由也按需加载
-import movieRouter from '../routers/movie'
-import cityRouter from '../routers/city'
+import bookRouter from './book'
+import likeRouter from '../routers/like'
 import personRouter from '../routers/person'
 Vue.use(Router)
 
@@ -12,10 +12,10 @@ export default new Router({
   routes: [
     {
       path:'/',
-      redirect:'/movie/nowPlaying'
+      redirect:'/book/hot'
     },
-   movieRouter,
-   cityRouter,
+    bookRouter,
+   likeRouter,
    personRouter
   ]
 })
