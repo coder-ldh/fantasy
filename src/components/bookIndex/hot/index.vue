@@ -22,7 +22,7 @@
             <p>{{ item.BookIntro }}</p>
           </div>
           <div class="buy">
-            <button>购买</button>
+            <button>点赞</button>
           </div>
         </li>
       </ul>

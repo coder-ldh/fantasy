@@ -1,6 +1,6 @@
 <template>
   <div id="detail">
-    <Header title="电影详情">
+    <Header title="详情">
       <i class="back" @touchstart="handleTOBack"></i>
     </Header>
     <div class="content">
@@ -18,16 +18,17 @@
           <div class="detail-list-info">
             <h2>{{ book.BookName }}</h2>
             <p>{{ book.BookAuthor }}</p>
-            <p>{{ book.sc }}</p>
+            <!-- <p>{{ book.sc }}</p>
             <p>{{ book.cat }}</p>
-            <p>{{ book.fra }} / {{ book.dur }}分钟</p>
-            <p>{{ book.BookIntro }}</p>
+            <p>{{ book.fra }} / {{ book.dur }}分钟</p> -->
+            <!-- <p>{{ book.BookIntro }}</p> -->
           </div>
         </div>
       </div>
       <!-- 介绍 -->
       <div class="introduce">
-        <p>{{ book.dra }}</p>
+        <p>简介 :</p>
+        <p>{{ book.BookIntro }}</p>
       </div>
       <!-- 图片展示 -->
       <div class="swiper-container" ref="detail_player">

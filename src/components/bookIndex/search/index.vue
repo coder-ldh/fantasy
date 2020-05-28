@@ -17,10 +17,10 @@
             <img :src="'http://img2.imgtn.bdimg.com/it/u=1884987646,3498928628&fm=26&gp=0.jpg' | imgFormat('128.180')" alt>
           </div>
           <div class="info">
-            <h2>{{item.bookName}}</h2>
+            <h2>{{item.BookName}}</h2>
             <!-- <p>{{ item.bookIntro }}</p> -->
             <p>评分：{{ item.sc }}</p>
-            <p>主演：{{ item.bookAuthor }}</p>
+            <p>主演：{{ item.BookAuthor }}</p>
           </div>
         </li>
       </ul>
@@ -61,7 +61,7 @@ export default {
           // console.log(res)
           // console.log(res.data.data.movies);
           if (newVal && res.status === 200 && res.data.data) {
-            this.bookList = res.data.data.documents;
+            this.bookList = res.data.data;
             // 数据处理成功之后，将loading 取消
             this.isLoading = false;
           }

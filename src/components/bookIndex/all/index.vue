@@ -16,11 +16,11 @@
               影评：
               <span>{{ item.BookIntro!==0?item.BookIntro:'暂未上映' }}</span>
             </p>
-            <p>主演: {{ item.BookAuthor }}</p>
+            <p>作者: {{ item.BookAuthor }}</p>
             <p>{{ item.BookIntro!==''?item.BookIntro:'暂无消息' }}</p>
           </div>
           <div class="buy">
-            <button>预售</button>
+            <button>点赞</button>
           </div>
         </li>
       </ul>
